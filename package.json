@@ -1,0 +1,19 @@
+{
+  "name": "fooapps-automapper-ts",
+  "version": "0.1.0",
+  "description": "",
+  "devDependencies": {
+    "automapper-ts": "^1.6.4",
+    "ts-loader": "^0.8.2",
+    "typescript": "^1.8.10",
+    "webpack": "^1.13.0"
+  },
+  "scripts": {
+    "postinstall": "node ./custom_node_modules/copy-custom-files.js",
+    "prestart": "webpack",
+    "start": "node ./dist/bundle.js"
+  },
+  "dependencies": {
+    "fs-extra": "^0.30.0"
+  }
+}

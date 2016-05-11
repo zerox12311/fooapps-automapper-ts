@@ -1,0 +1,1 @@
+# fooapps-automapper-ts
